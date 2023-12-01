@@ -1,0 +1,407 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button{
+    width: 240px;
+    height: 48px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    border-style: none;
+}
+
+body{
+    margin-left: 152px;
+    margin-right: 150px;
+}
+
+/* --------------------HEADER_START--------------------*/
+.globalHeader{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;    
+}
+.disneyLogo{
+    width: 96px;
+    margin-left: 20px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+nav ul{
+    font-size: 14.3px;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;    
+}
+nav ul li{
+    margin-top: 14px;
+    margin-left: 25px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: #0077da;
+    cursor: pointer;
+}
+.boutique{
+    margin-left: 40px;
+}
+.films{
+    margin-left: 42px;
+}
+.parcs{
+    margin-left: 41px;
+}
+.disney100{
+    margin-left: 40px;
+}
+/* --------------------HEADER_END----------------------*/
+
+
+/* --------------------MAIN_START----------------------*/
+
+    /* ----------------------SECTION_1----------------------*/
+        
+
+/* ------ZOOM EFFECT START---------*/
+.wishImage{
+    width: 1602px;
+    cursor: pointer;
+    transition: transform .5s;
+}
+.imageWishZoom{
+    width: 1602px;
+    height: 687px;
+    overflow:hidden;
+    position: relative;
+    z-index: 1;
+}
+.wishImage:hover{
+    -ms-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+/* ------ZOOM EFFECT END---------*/
+.wishTxt{
+    width: 310px;
+}
+.firstSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerSectionWish{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5px;
+    position: absolute;
+    z-index: 5;
+}
+.txtCinema{
+
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.buttonsWish{
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+}
+.buttonReserv{
+    background-color: #F2BC4F;
+    border: 0;
+    margin-right: 30px;
+}
+.buttonReserv:hover{
+    background-color: #ddab48;
+    cursor: pointer;
+}
+.buttonSavoir{
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+}
+.textButtonSavoir{
+    color: white;
+}
+.buttonSavoir:hover{
+    background-color: rgba(100%, 100%,100%, 14%);
+    cursor: pointer;
+    border-color: black;
+}
+    /* ----------------------SECTION_2----------------------*/
+.secondSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(0,0,0,5%);
+    margin-top: -3px;
+    height: 670px;
+    padding-right: 20px;
+}
+.boxSecondSection{
+    width: 333px;
+    height: 609.36px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 22px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+.boxSecondSection:hover{
+    cursor: pointer;
+}
+.imgSecondSection{
+    width: 333px;
+} 
+.firstLineSecondSection{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 27px;
+    margin-left: 29px;
+    margin-right: 29px;
+    margin-bottom: 10px;
+
+}
+.secondLineSecondSection{
+    font-size: 14px;
+    margin-left: 29px;
+    margin-right: 33px;
+}
+.firstSubtitle{
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 29px;
+    margin-top: 18px;
+}
+.secondSubtitle{
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 29px;
+    margin-top: 100px;
+}
+.thirdSubtitle{
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 29px;
+    margin-top: 80px;
+}
+.fourthSubtitle{
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 29px;
+    margin-top: 100px;
+}
+    /* ----------------------SECTION_3----------------------*/
+.boxThirdSection{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.boxThirdSection:hover{
+    cursor: pointer;
+}
+.thirdSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #030C40;
+    padding: 32px;
+    height: 612px;
+}
+.imgBrand{
+    height: 34px;
+    margin-top: 42px;
+}
+.titleThirdSection{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 29px ;
+}
+
+/* ------ZOOM EFFECT START---------*/
+
+.imgThirdSection{
+    height: 252px;
+    transition: transform .5s;
+}
+.imgThirdSection:hover{
+    -ms-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+.imgDisneyPlusZoom{
+    width: 450px;
+    height: 250px;
+    overflow:hidden;
+    margin-left: 11px;
+    margin-right: 11px;
+}
+
+/* ------ZOOM EFFECT END---------*/
+
+.txtThirdSection{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.subtitleThirdSection{
+    color: white;
+    font-size: 13px;
+}
+.abonnezVousButton{
+    background-color: #006EF5;
+    color: white;
+    margin: 20px;
+    border:0;
+}
+.abonnezVousButton:hover{
+    background-color: #0066e2;
+    cursor: pointer;
+}
+    /* ----------------------SECTION_4----------------------*/
+
+.fourthSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0,0,0,5%);
+    font-size: 30px;
+    font-weight: 400;
+    height: 600px;
+    position: relative;
+}
+
+/* ------ZOOM EFFECT START---------*/
+
+.ImgShopDisney{
+    position: relative;
+    width: 1390px ;
+    margin-bottom: 15px;
+    z-index: 1;
+    transition: transform .5s
+}
+.imageBoutiqueZoom{
+    width: 1390px;
+    height: 465px;
+    overflow:hidden;
+    position: relative;
+    z-index: 1;
+   
+}
+.ImgShopDisney:hover{
+    -ms-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+/* ------ZOOM EFFECT END---------*/
+
+.txtFourthSection{
+    margin-top: 35px;
+    margin-bottom: 18px;
+}
+.blocFourthSection{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 2;
+    margin-left: 788px;
+    margin-top: 230px;
+    color: white;
+}
+.fourthSection:hover{
+    cursor: pointer;
+}
+.ImgShopDisneyTxt{
+    height: 88px;
+    margin-bottom: 8px;
+    margin-left: 3px;
+}
+.memeEndroit{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4px;
+}
+.blocFourthText{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.blocFourthSubtitle{
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.blocFourthSubtitle:hover{
+    text-decoration: underline;
+}
+.leMeilleurDeDisney{
+    font-size: 16px;
+}
+
+
+/* ----------------------SECTION_5----------------------*/
+
+/* --------------------MAIN_END------------------------*/
+/* --------------------FOOTER_START--------------------*/
+.topFooter{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 45px;
+    margin-bottom: 15   px;
+}
+.globalFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.txtTopFooter{
+    font-size: 18px;
+    margin-top: 2px;
+}
+.logoTopFooter{
+    display: flex;
+    justify-content: center;
+    margin-left: 12px;
+}
+.logosTopFooter{
+    display: flex;
+    justify-content: center;
+}
+.disneyLogoFooter{
+    width: 80px;
+    margin-top: 40px;
+}
+.listFooter{
+    font-size: 12px;
+    font-weight: 400;
+}
+.listFooter:hover{
+    color: #0077da;
+    cursor: pointer;
+}
+.lastListFooter{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 30px;
+}
+/* --------------------FOOTER_END--------------------*/
